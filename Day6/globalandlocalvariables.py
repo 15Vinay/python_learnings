@@ -22,11 +22,47 @@
 
 #cool() # 200
 
-# Example 3
-XY =100 # global variable
+# Example 3 Using Global variable in local variable and update the value.
 
+# XY =100 # global variable
+#
+# def cool():
+#     global xy=200 # invalid sintex
+#     # global xy
+#     # xy=200 # global variable
+#     print(xy)
+#
+# cool() # 200
+# print(xy)
+
+#Example4:
+# x=100
+#
+# def cool():
+#     global x
+#     x=500
+#     print(x)
+#
+# #cool()     #500
+# print(x)   #500
+
+
+# #Example 5
+# There is no need to declare the global variable outside the function
+# You can declare them global inside the function.We have to declare global variable
 def cool():
-    xy=200 # local variable
-    print(xy)
+    global x
+    x=100
+    print(x)
 
-cool() # 200
+cool()
+print(x)  # able to access the function bcoz it is global variable
+
+
+
+
+
+
+
+
+

@@ -27,11 +27,11 @@
 # print(fun()) # None
 
 #Example 5 :
-def cal(a,b):
-    return(a+b)
+def cal(a,b,c):
+    return(a+b+c)
 
 
-print(cal(10,20)) #30
+print(cal(10,20,10.5)) #30
 
 
 

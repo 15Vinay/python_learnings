@@ -29,3 +29,10 @@
 # Global variable should be inside the function or after the function
 # 2) Local --> Variable created indide of function are called local functions
 # Local variable can be accessible within the global variable
+
+# 2 types of arguments /parameters we can pass to the function
+#
+# 1) Positional argument/parameters
+#
+# 2) Keyword argument/parameters
+
